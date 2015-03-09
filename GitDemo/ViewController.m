@@ -31,6 +31,7 @@
     self.sum = a + b;
     [self sayHello];
     NSLog(@"The result is: %d", self.sum);
+    [self sayByeBye];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
