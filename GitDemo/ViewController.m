@@ -21,13 +21,17 @@
     NSLog(@"Hello");
 }
 
+- (void)balle{
+    NSLog(@"Balle");
+}
+
 
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     int a = 5;
     int b = 10;
-    
+    [self balle];
     self.sum = a + b;
     [self sayHello];
     NSLog(@"The result is: %d", self.sum);
