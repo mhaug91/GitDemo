@@ -17,7 +17,9 @@
 @implementation ViewController
 
 
-
+-(void)sayByeBye{
+    NSLog(@"bye bye");
+}
 
 
 - (void)viewDidLoad {
@@ -27,6 +29,7 @@
     
     self.sum = a + b;
     NSLog(@"The result is: %d", self.sum);
+    [self sayByeBye];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
