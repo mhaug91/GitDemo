@@ -1,16 +1,13 @@
 //
-//  ViewController.h
+//  testClass.h
 //  GitDemo
 //
 //  Created by MacBarhaug on 09.03.15.
 //  Copyright (c) 2015 MacBarhaug. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-#import "testClass.h"
+#import <Foundation/Foundation.h>
 
-@interface ViewController : UIViewController
-
+@interface testClass : NSObject
 
 @end
-
